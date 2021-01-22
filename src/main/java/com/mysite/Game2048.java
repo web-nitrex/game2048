@@ -4,7 +4,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-
 public class Game2048 implements Game {
     private GameHelper helper;
     private Random random;
@@ -14,7 +13,7 @@ public class Game2048 implements Game {
     private static final int ITEM_VALUE_TWO=2;
     private static final int MAX_ITEM_VALUE=2048;
 
-    private final Board<Key, Integer> board;
+    private Board<Key, Integer> board;
 
     Game2048()
     {
